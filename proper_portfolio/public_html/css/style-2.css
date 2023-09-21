@@ -123,10 +123,12 @@ nav.navbar.navbar-default {
     font-size: 18px;
     padding: 5px;
     margin-top: 5px;
+     text-align: justify;
 }
 .para-2{
     font-size: 15px;
     padding-top: 10px;
+    text-align: justify;
    
 }
 .para-3{
@@ -151,4 +153,15 @@ nav.navbar.navbar-default {
     text-align: right;
     color: white;
     font-size: 22px;
+}
+@media only screen and (max-width: 640px) {
+ .banner-section .btn-dark{
+  margin-left: 60px;
+ }
+ .about{
+    padding:20px;
+}
+.map{
+   width: 430px; 
+}
 }
